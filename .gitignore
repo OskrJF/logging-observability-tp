@@ -1,0 +1,24 @@
+# --- Java / Maven ---
+target/
+*.class
+*.jar
+*.war
+
+# --- Eclipse IDE ---
+.settings/
+.classpath
+.project
+bin/
+
+# --- Node.js / React ---
+node_modules/
+frontend-observability/node_modules/
+build/
+dist/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Specific Binaries ---
+opentelemetry-javaagent.jar

@@ -1,0 +1,18 @@
+Starting ObservabilityApp using Java 22.0.2 with PID 70791 (/Users/oscarj/Documents/Master/M2/M2_S1_ICo/restruct_hai913i/observability/target/classes started by oscarj in /Users/oscarj/Documents/Master/M2/M2_S1_ICo/restruct_hai913i/observability)
+No active profile set, falling back to 1 default profile: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/10.1.15]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3184 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started ObservabilityApp in 5.707 seconds (process running for 12.3)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+{"what":"READ","metric":0.0,"where":"getAllProducts","timestamp":"2025-12-09T13:27:33.117297","who":"WebUser"}
+{"what":"READ","metric":0.0,"where":"getAllProducts","timestamp":"2025-12-09T13:27:33.479325","who":"WebUser"}
+{"what":"READ","metric":0.0,"where":"getAllProducts","timestamp":"2025-12-09T13:27:34.317547","who":"WebUser"}
+{"what":"WRITE","metric":99.99,"where":"addProduct","timestamp":"2025-12-09T13:27:35.040493","who":"WebUser"}
